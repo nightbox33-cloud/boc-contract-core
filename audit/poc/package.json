@@ -1,0 +1,23 @@
+{
+  "name": "boc-audit-poc",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Executable PoC for the boc-contract-core audit (compiled-bytecode EVM harness)",
+  "scripts": {
+    "compile": "node compile.js",
+    "poc": "node poc.js",
+    "fuzz": "node fuzz2.js 1 150"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "0.2.1",
+    "@ethereumjs/block": "4.3.0",
+    "@ethereumjs/common": "3.2.0",
+    "@ethereumjs/tx": "4.2.0",
+    "@ethereumjs/util": "8.1.0",
+    "@ethereumjs/vm": "6.5.0",
+    "@openzeppelin/contracts": "4.5.0",
+    "@openzeppelin/contracts-upgradeable": "4.5.2",
+    "ethers": "5.8.0",
+    "solc": "0.8.17"
+  }
+}
